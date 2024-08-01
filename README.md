@@ -51,7 +51,7 @@ This project involves creating a database schema for managing book issues in a c
 
 The Entity-Relationship (ER) diagram visualizes the database schema, including tables and relationships. It helps in understanding the data structure and the relationships between different entities.
 
-**ER Diagram File**: [ER_Diagram.mwb](path/to/your/ER_Diagram.mwb)
+**ER Diagram File**: [ER_Diagram.mwb](path/to/sumo47/ER_Diagram.mwb)
 
 ## Setup Instructions
 
