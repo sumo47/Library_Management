@@ -34,10 +34,12 @@ This project involves creating a database schema for managing book issues in a c
 4. **IssuedBooks**
    - `issue_id` (Primary Key)
    - `book_id` (Foreign Key referencing Books)
-   - `issued_to` (Foreign Key referencing Students or Teachers)
+   - `issued_to_student` (Foreign Key referencing Students, nullable)
+   - `issued_to_teacher` (Foreign Key referencing Teachers, nullable)
    - `issue_date`
    - `return_date`
    - `fine`
+   - **Constraints**: Either `issued_to_student` or `issued_to_teacher` must be NULL, but not both.
 
 ### Relationships
 
